@@ -10,7 +10,7 @@ end
 
 def match(array)
 matches = []
-array.each {|x| 
+array.each {|x|
     if alphabetize(x) == alphabetize(@word)
       matches << x
     end
