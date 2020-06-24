@@ -15,7 +15,7 @@ array.each {|x|
       matches << x
     end
  }
-
+return matches
 end
 
 def alphabetize(string)
